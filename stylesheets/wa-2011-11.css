@@ -1,0 +1,225 @@
+body.november {
+  background: URL("/images/nov/bk2.gif");
+  color: #000;
+  font: 1em/1.438 freight-sans-pro, sans-serif; }
+
+.container {
+  width: 960px;
+  margin: 0 auto; }
+
+.cols {
+  overflow: hidden;
+  *display: inline-block; }
+  .cols .col {
+    float: left;
+    margin-left: 20px;
+    width: 60px; }
+    .cols .col.first {
+      margin-left: 0; }
+  .cols .col_280 {
+    width: 280px; }
+  .cols .col_640 {
+    width: 640px; }
+  .cols .col_460 {
+    width: 460px; }
+
+.holding {
+  background: #1A191F;
+  color: #FFF;
+  font: 0.875em/1.643 Arial, sans-serif; }
+
+.holding .vcard {
+  color: #C1C1C1; }
+  .holding .vcard a {
+    color: #C1C1C1; }
+
+.november .logo {
+  margin: 80px 0 45px; }
+
+.november p {
+  margin-bottom: 1.643em; }
+
+.holding .intro {
+  font: 1.214em/1.353 freight-sans-pro, sans-serif;
+  padding: 10px 0 10px; }
+
+.holding .countdown {
+  float: right;
+  margin: 45px 0 0;
+  color: #8D8D99;
+  overflow: hidden;
+  width: 250px;
+  *display: inline-block;
+  font: 1.714em/1.4 ff-meta-serif-web-pro; }
+  .holding .countdown .clock {
+    float: left; }
+  .holding .countdown p {
+    float: right; }
+  .holding .countdown strong {
+    color: #FED600;
+    display: block;
+    letter-spacing: 2px;
+    font-size: 0.821em;
+    font-weight: normal; }
+  .holding .countdown .sm {
+    font-size: 0.714em; }
+  .holding .countdown .lg {
+    font-size: 1.75em; }
+
+.november h1 {
+  font: normal 2.25em/1.2 ff-meta-serif-web-pro;
+  margin: 0 0 35px; }
+
+.november h2 {
+  font: 2.25em/1.2 ff-meta-serif-web-pro;
+  border-bottom: 1px solid;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  display: inline-block; }
+
+.november .jumper {
+  overflow: hidden;
+  *display: inline-block; }
+  .november .jumper li {
+    display: inline; }
+    .november .jumper li a {
+      float: left;
+      background: black URL("/images/nov/arrow_black.gif") no-repeat 95% 8px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+      padding: 4px 20px 4px 10px;
+      margin-right: 5px;
+      text-decoration: none;
+      color: #FFF; }
+
+#ingredients {
+  background: URL("/images/nov/bk.gif") repeat 0 0;
+  color: #FFF;
+  padding: 50px 0;
+  margin: 110px 0 0;
+  position: relative;
+  overflow: hidden; }
+  #ingredients .bumps {
+    position: absolute;
+    left: 50%;
+    top: 220px;
+    margin-left: -960px; }
+  #ingredients h2 {
+    border-bottom-color: #FFF; }
+  #ingredients .ingredients {
+    margin-top: 260px;
+    overflow: hidden;
+    *display: inline-block; }
+    #ingredients .ingredients li {
+      float: left;
+      padding-left: 125px;
+      width: 335px;
+      list-style: none;
+      margin-bottom: 35px; }
+      #ingredients .ingredients li h3 {
+        display: inline-block;
+        border-bottom: 1px solid;
+        font: 1.313em/1.2 ff-meta-serif-web-pro;
+        padding-bottom: 15px;
+        margin-bottom: 15px; }
+      #ingredients .ingredients li.brief {
+        background: URL("/images/nov/icon1.png") no-repeat 0 0; }
+        #ingredients .ingredients li.brief h3 {
+          border-bottom-color: #ff0060; }
+      #ingredients .ingredients li.gm {
+        background: URL("/images/nov/icon2.png") no-repeat 0 0;
+        margin-left: 20px; }
+        #ingredients .ingredients li.gm h3 {
+          border-bottom-color: #23d8d8; }
+      #ingredients .ingredients li.ideas {
+        clear: left;
+        background: URL("/images/nov/icon3.png") no-repeat 0 0; }
+        #ingredients .ingredients li.ideas h3 {
+          border-bottom-color: #cdff00; }
+      #ingredients .ingredients li.rel {
+        background: URL("/images/nov/icon4.png") no-repeat 0 0;
+        margin-left: 20px; }
+        #ingredients .ingredients li.rel h3 {
+          border-bottom-color: #fed600; }
+
+#documentary {
+  background: #fff;
+  color: #000;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+#vimeos {
+  margin-bottom: 16px; }
+  #vimeos nav {
+    display: block;
+    background: transparent;
+    height: auto;
+    padding-bottom: 8px; }
+    #vimeos nav ul {
+      display: block;
+      list-style: none outside;
+      margin: 0; }
+    #vimeos nav li {
+      display: block;
+      margin: 0 8px 0 0;
+      padding: 0;
+      float: left;
+      text-transform: none;
+      font-weight: normal; }
+    #vimeos nav a {
+      display: block;
+      background: #fff;
+      color: #000;
+      cursor: pointer;
+      cursor: hand;
+      padding: 0.4em 1em 1em; }
+      #vimeos nav a:active, #vimeos nav a.active {
+        background: black url("/images/nov/vimeo_tab_point.png") no-repeat center bottom;
+        color: #fff; }
+
+#photos {
+  margin-bottom: 6px;
+  overflow: hidden;
+  height: auto; }
+  #photos a {
+    display: block;
+    float: left;
+    margin: 0 8px 8px 0; }
+    #photos a img {
+      display: block;
+      margin: 0;
+      border: 0;
+      outline: 0; }
+
+.november .vcard ul {
+  margin-bottom: 1.643em; }
+.november .vcard a {
+  color: #999999; }
+
+.november nav {
+  background: #CBCBCB; }
+
+#further-viewing {
+  display: block;
+  overflow: hidden;
+  clear: both;
+  height: auto; }
+  #further-viewing a {
+    display: block;
+    float: left;
+    background: #000;
+    color: #fff;
+    padding: 4px 10px 4px 10px;
+    text-decoration: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin: 0 8px 0 0; }
+
+.november footer {
+  background: #000;
+  color: #FFF;
+  padding: 20px 0; }
+  .november footer p {
+    margin-bottom: 0.5em; }

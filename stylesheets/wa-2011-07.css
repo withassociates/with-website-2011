@@ -1,0 +1,180 @@
+/* line 21, ../../views/stylesheets/wa-2011-07.css.scss */
+body {
+  text-align: center;
+  font: 1em "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+  color: #4b4b4b; }
+
+/* line 28, ../../views/stylesheets/wa-2011-07.css.scss */
+a {
+  color: #ca2828;
+  text-decoration: none; }
+  /* line 31, ../../views/stylesheets/wa-2011-07.css.scss */
+  a:hover {
+    color: #4b4b4b; }
+
+/* line 36, ../../views/stylesheets/wa-2011-07.css.scss */
+p, ul, ol {
+  margin-bottom: 1.5em; }
+
+/* line 40, ../../views/stylesheets/wa-2011-07.css.scss */
+header {
+  border-bottom: 1px solid #efefef;
+  padding: 40px 0 30px; }
+
+/* line 45, ../../views/stylesheets/wa-2011-07.css.scss */
+#intro {
+  text-align: center;
+  font: 3em "Goudy Bookletter 1911", serif;
+  line-height: 1.292em;
+  width: 820px;
+  margin: 65px auto 0; }
+  /* line 51, ../../views/stylesheets/wa-2011-07.css.scss */
+  #intro p {
+    margin-bottom: 0; }
+
+/* line 56, ../../views/stylesheets/wa-2011-07.css.scss */
+.slice {
+  padding-top: 100px; }
+  /* line 58, ../../views/stylesheets/wa-2011-07.css.scss */
+  .slice ul {
+    background: #E6E6E6;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 30px; }
+    /* line 64, ../../views/stylesheets/wa-2011-07.css.scss */
+    .slice ul li {
+      padding-left: 10px;
+      margin-left: 20px;
+      margin-bottom: 10px; }
+
+/* line 72, ../../views/stylesheets/wa-2011-07.css.scss */
+.col {
+  width: 300px;
+  margin-left: 20px; }
+  /* line 75, ../../views/stylesheets/wa-2011-07.css.scss */
+  .col.first {
+    margin-left: 0 !important;
+    clear: left; }
+
+/* line 81, ../../views/stylesheets/wa-2011-07.css.scss */
+.col_620 {
+  width: 620px;
+  margin: 0 auto; }
+
+/* line 87, ../../views/stylesheets/wa-2011-07.css.scss */
+.cols {
+  overflow: hidden; }
+  /* line 90, ../../views/stylesheets/wa-2011-07.css.scss */
+  .cols .col {
+    float: left;
+    font-size: 0.875em; }
+
+/* line 96, ../../views/stylesheets/wa-2011-07.css.scss */
+.slice .vcard {
+  background: transparent;
+  padding: 0; }
+  /* line 99, ../../views/stylesheets/wa-2011-07.css.scss */
+  .slice .vcard li {
+    margin-bottom: 0;
+    list-style: none; }
+  /* line 103, ../../views/stylesheets/wa-2011-07.css.scss */
+  .slice .vcard .street-address {
+    display: block; }
+  /* line 106, ../../views/stylesheets/wa-2011-07.css.scss */
+  .slice .vcard .email {
+    display: inline-block;
+    margin-top: 1.5em; }
+
+/* line 112, ../../views/stylesheets/wa-2011-07.css.scss */
+h1 {
+  font: 2.25em "Goudy Bookletter 1911", serif;
+  background: URL("../images/bk_h1.gif") repeat-x 0 50%;
+  text-align: center;
+  margin-bottom: 70px; }
+  /* line 117, ../../views/stylesheets/wa-2011-07.css.scss */
+  h1 #what-is {
+    display: inline-block;
+    background: #FFF;
+    padding: 0 20px; }
+  /* line 122, ../../views/stylesheets/wa-2011-07.css.scss */
+  h1 .by-line, h1 .month {
+    display: block;
+    font-size: 0.361em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-transform: lowercase;
+    font-variant: small-caps;
+    letter-spacing: 0.2em; }
+
+/* line 132, ../../views/stylesheets/wa-2011-07.css.scss */
+h2 {
+  font-size: 1.125em;
+  margin: 2.334em 0 1.167em; }
+
+/* line 137, ../../views/stylesheets/wa-2011-07.css.scss */
+.holder {
+  border: 10px solid #E6E6E6;
+  margin: 40px 0; }
+  /* line 140, ../../views/stylesheets/wa-2011-07.css.scss */
+  .holder iframe {
+    margin: 0;
+    display: block;
+    overflow: hidden; }
+
+/* line 147, ../../views/stylesheets/wa-2011-07.css.scss */
+.slice .icons {
+  float: right;
+  background: transparent;
+  padding: 0; }
+  /* line 151, ../../views/stylesheets/wa-2011-07.css.scss */
+  .slice .icons li {
+    display: inline;
+    padding-left: 0;
+    margin-left: 0; }
+    /* line 155, ../../views/stylesheets/wa-2011-07.css.scss */
+    .slice .icons li a {
+      display: block;
+      width: 30px;
+      height: 30px;
+      text-indent: -9999em;
+      background: URL("/images/icons.gif") no-repeat 0 0;
+      margin-bottom: 10px; }
+      /* line 162, ../../views/stylesheets/wa-2011-07.css.scss */
+      .slice .icons li a:hover {
+        background-position: -70px 0; }
+    /* line 166, ../../views/stylesheets/wa-2011-07.css.scss */
+    .slice .icons li.email a {
+      background-position: 0 -85px; }
+      /* line 168, ../../views/stylesheets/wa-2011-07.css.scss */
+      .slice .icons li.email a:hover {
+        background-position: -70px -85px; }
+    /* line 172, ../../views/stylesheets/wa-2011-07.css.scss */
+    .slice .icons li.flickr a {
+      background-position: 0 -42px; }
+      /* line 174, ../../views/stylesheets/wa-2011-07.css.scss */
+      .slice .icons li.flickr a:hover {
+        background-position: -70px -42px; }
+
+/* line 181, ../../views/stylesheets/wa-2011-07.css.scss */
+.instruction {
+  color: #121212;
+  font-style: italic;
+  margin-top: 2.334em; }
+
+/* line 187, ../../views/stylesheets/wa-2011-07.css.scss */
+footer {
+  border-top: 1px solid #efefef;
+  margin-top: 65px;
+  padding: 20px 0 60px;
+  font-size: 0.75em; }
+  /* line 193, ../../views/stylesheets/wa-2011-07.css.scss */
+  footer .vcard li {
+    display: inline; }
+  /* line 196, ../../views/stylesheets/wa-2011-07.css.scss */
+  footer .vcard .street-address, footer .vcard .email {
+    display: inline; }
+  /* line 199, ../../views/stylesheets/wa-2011-07.css.scss */
+  footer .vcard .contact {
+    float: right;
+    margin-left: 10px; }

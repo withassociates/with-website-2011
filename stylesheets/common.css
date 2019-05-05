@@ -1,0 +1,78 @@
+.container {
+  width: 940px;
+  text-align: left;
+  margin: 0 auto; }
+
+a{
+  color:#ca2828;
+}
+
+nav {
+  font: 12px "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #efefef;
+  text-align: center;
+  height: 58px; }
+  nav .container {
+    position: relative;
+    text-align: center; }
+  nav ul {
+    overflow: hidden;
+    display: inline-block;
+    *width:568px;
+    margin: 0 auto; }
+    nav ul li {
+      float: left;
+      list-style: none;
+      color: #dddddd;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding: 20px 10px; }
+      nav ul li.active {
+        background-image: URL("/images/bk_nav.png");
+        background-repeat: no-repeat;
+        background-position: 50% 100%; }
+        nav ul li.active a {
+          color: #141414; }
+      nav ul li a {
+        text-decoration:none;
+        color: #929292; }
+        nav ul li a:hover {
+          color: #141414; }
+  nav #logo {
+    position: absolute;
+    top: 20px;
+    left: 0; }
+  nav #whats-this {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    font-size: 11px;
+    text-decoration: underline;
+    color: #9d9d9d; }
+  nav #more {
+    display: none;
+    position:absolute;
+    top:80px;
+    left:0;
+    width:620px;
+    font-size:18px;
+    line-height:1.333em;
+    letter-spacing:1px;
+    margin:0 160px;}
+    nav #more form{
+      font-size:0.667em;}
+      nav #more form input{
+        border:0;
+        width:154px;
+        padding:3px;
+        font: 1em "Helvetica Neue", Arial, sans-serif;}
+        nav #more form input.button{
+          background:none;
+          color:#ca2828;
+          padding:0;
+          width:auto;}
+          nav #more form input.button:hover{
+            cursor:pointer;
+            color:#4b4b4b;
+          }

@@ -1,0 +1,280 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Serif);
+/* ================ */
+/* = The 1Kb Grid = */     /* 12 columns, 60 pixels each, with 20 pixel gutter */
+/* ================ */
+
+.grid_1 { width:60px; }
+.grid_2 { width:140px; }
+.grid_3 { width:220px; }
+.grid_4 { width:300px; }
+.grid_5 { width:380px; }
+.grid_6 { width:460px; }
+.grid_7 { width:540px; }
+.grid_8 { width:620px; }
+.grid_9 { width:700px; }
+.grid_10 { width:780px; }
+.grid_11 { width:860px; }
+.grid_12 { width:940px; }
+
+.column {
+    margin: 0 10px;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+.row {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.row .row {
+    margin: 0 -10px;
+    width: auto;
+    display: inline-block;
+}
+
+
+
+html, body {
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: none;
+    color: #201f1f;}
+
+.may{
+    font:0.75em/1.833 'PT Serif', Georgia, "Times New Roman", serif;
+    padding:80px 0;
+}
+
+.may #logo{
+    
+}
+
+.may p, .may ul{
+    margin-bottom:12px!important;
+}
+
+.may h1, .may .intro{
+    font:1.167em/1.571 'PT Serif', Georgia, "Times New Roman", serif;
+    margin-bottom:12px;
+}
+
+.may .intro,.may .aboutus{
+	margin-top: 5px;
+}
+
+.may h1{
+    font-weight:bold;
+}
+
+.may h1 em{
+    font-weight:normal;
+}
+
+.may a{
+    color: #201f1f;
+}
+
+.may .illustrations{
+    position:relative;
+	top:-70px;
+	margin-bottom:30px !important;
+}
+
+.may .illustrations li{
+    height:164px;
+    padding-top:468px;
+}
+
+.may .illustrations img{
+    position:absolute;
+}
+
+.may li.jd img{
+    top:0;
+    left:0;
+}
+
+.may li.es img{
+    top:114px;
+    left:320px;
+}
+
+.may li.mw img{
+    top:72px;
+    left:730px;
+}
+
+.may li.ag img{
+    top:650px;
+    left:20px;
+}
+
+.may li.am img{
+    top:622px;
+    left:390px;
+}
+
+.may li.jw img{
+    top:625px;
+    left:650px;
+}
+
+.may .illustrations .caption{
+    font-style:italic;
+    left:0;
+    bottom:0;
+}
+
+.may .illustrations .caption h2{
+    font:bold 1.167em/1.571 'PT Serif', Georgia, "Times New Roman", serif;
+    text-transform:none;
+    margin-bottom:0;
+}
+
+.may .illustrations .caption strong{
+    font-style:normal;
+}
+
+.may table{
+    width:100%;
+    margin-bottom:60px;
+}
+
+.may table caption{
+    text-transform:uppercase;
+    text-align:left;
+    font:1.167em/1.571 'PT Serif', Georgia, "Times New Roman", serif;
+    margin-bottom:1.571em;
+}
+
+.may table tbody td, .may table tbody th{
+    border-left:1px solid #dfdedf;
+}
+
+.may table tbody td, .may table thead th{
+    width:79px;
+    text-align:center;
+    padding:4px 0;
+}
+
+.may table th{
+    font-weight:normal;
+    font-style:italic;
+}
+
+.may table tbody td{
+    text-indent:-9999em;
+    background:URL("../images/may/icons_key.png") no-repeat 50% 9px;
+}
+
+.may table tbody td.no{
+    background-position:50% -41px;
+}
+
+.may table tbody td.usually-no{
+    background-position:50% -91px;
+}
+
+.may table tbody td.inapplicable{
+    background-position:50% -141px;
+}
+
+.may table thead th{
+    font:italic 1.167em/1.571 'PT Serif', Georgia, "Times New Roman", serif;
+}
+
+.may table tbody th{
+    text-align:left;
+    width:204px;
+    padding-left:16px;
+}
+
+.may small{
+    line-height:1.25;
+    font-style:italic;
+}
+
+.may h2{
+    text-transform:uppercase;
+    font: 1.167em/1.571 'PT Serif', Georgia, "Times New Roman", serif;
+    margin-bottom:1.571em;
+}
+
+.may .vcard{
+    font: 1.167em/1.571 'PT Serif', Georgia, "Times New Roman", serif;
+}
+
+
+
+.may .vcard .fn{
+    font-weight:bold;
+}
+
+.may .vcard .email{
+    display:block;
+    margin:1.571em 0;
+}
+
+.may .vcard .street-address{
+    display:block;
+}
+
+.may .key{
+    margin-bottom:40px;
+    font-style:italic;
+}
+
+.may .key li{
+    background:URL("../images/may/icons_key.png") no-repeat 0 9px;
+    padding:4px 0 4px 24px;
+}
+
+.may .key li.no{
+    background-position:0 -41px;
+}
+
+.may .key li.usually-no{
+    background-position:0 -91px;
+}
+
+.may .key li.inapplicable{
+    background-position:0 -141px;
+}
+
+.caption .sm{
+	padding-top:1px;
+}
+
+.caption .sm li{
+	display:inline;
+	position:relative;
+}
+
+.caption .sm li a{
+	text-indent:-9999em;
+	display:inline-block;
+	width:16px;
+	background:URL("../images/may/icons_sm.png") no-repeat 0 4px;
+}
+
+.caption .sm li.flickr a{
+	background-position:0 -146px;
+}
+
+.caption .sm li.github a{
+	background-position:0 -96px;
+}
+
+.caption .sm li.tumblr a{
+	background-position:0 -196px;
+}
+
+.caption .sm li.spotify a{
+	background-position:0 -246px;
+}
+
+.caption .sm li.dribbble a{
+	background-position:0 -46px;
+}

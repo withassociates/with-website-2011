@@ -1,0 +1,133 @@
+body {
+  line-height: 1.5;
+  font-family: 'Helvetica Neue', arial, sans-serif;
+  color: #2a2a2a;
+  font-size: 81.25%; }
+
+p, ul{
+  margin-bottom:1.5em;
+}
+
+a {
+  color: #3366cc; }
+  a:visited {
+    color: #3366cc; }
+  a:focus {
+    color: #3366cc; }
+  a:hover {
+    color: #3366cc; }
+  a:active {
+    color: #3366cc; }
+
+	.grid_1 { width:60px; }
+	.grid_2 { width:140px; }
+	.grid_3 { width:220px; }
+	.grid_4 { width:300px; }
+	.grid_5 { width:380px; }
+	.grid_6 { width:460px; }
+	.grid_7 { width:540px; }
+	.grid_8 { width:620px; }
+	.grid_9 { width:700px; }
+	.grid_10 { width:780px; }
+	.grid_11 { width:860px; }
+	.grid_12 { width:940px; }
+
+	.column {
+	    margin: 0 10px;
+	    overflow: hidden;
+	    float: left;
+	    display: inline;
+	}
+	.row {
+	    width: 960px;
+	    margin: 0 auto;
+	    overflow: hidden;
+	}
+	.row .row {
+	    margin: 0 -10px;
+	    width: auto;
+	    display: inline-block;
+	}
+
+
+
+html, body {
+  background-color: #EFEFEF;
+  color: #161616; }
+
+body {
+  /*overflow-y: scroll;*/ }
+
+.june nav{
+	margin-bottom:60px;
+}
+  .june .logo {
+    text-indent: -9999px;
+    overflow: hidden;
+    background-image: url('../images/june/logo.png');
+    background-repeat: no-repeat;
+    width: 178px;
+    display: block; }
+    .june .logo a {
+      display: block;
+      width: 178px; }
+  .june .thumb {
+    display: block;
+    height: 210px; }
+    .june .thumb img {
+      background-color: #ccc;
+      width: 198px;
+      overflow: hidden;
+      border: 1px solid #ccc; }
+    .june .thumb h3 {
+      margin-top: 9px; }
+  .june #sidebar p {
+    width: 90%; }
+  .june h1 {
+    font-size: 22px;
+    line-height:1;
+    margin-bottom: 30px; }
+  .june h3 {
+    font-size: 13px; }
+    .june h3 a {
+      color: #282828;
+      font-weight: bold;
+      text-decoration: none; }
+  .june #content p {
+    width: 90%; }
+  .june .pic {
+    position: relative;
+    left: -4px;
+    text-align: center;
+    margin: 70px 0px;
+    display: block;
+    width: 100%; }
+    .june .pic.first {
+      margin-top: 40px; }
+  .june #extra ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+  .june #pagecontent {
+    margin-bottom: 55px;
+  }
+  .june #pagecontent #pagecontent{
+	  margin-bottom: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+ }
+ 
+.june .vcard .street-address{
+  display:block;
+}
+
+.june .vcard .email{
+  margin:1.5em 0;
+  display:block;
+}
+
+.june .vcard .tel{
+  text-decoration:none;
+  color: #2a2a2a;
+  cursor:default;
+}

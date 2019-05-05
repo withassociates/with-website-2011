@@ -1,0 +1,500 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: relative;
+	font: 0.75em/1.5 Arial, sans-serif;
+	color: #090909;
+	text-align:center;
+	background:#FAFAFA URL(../../images/jfa-2010/bg.jpg) 0 0 repeat;
+}
+
+
+/*always vertical scrollbars for FF only */
+html>/**/body{
+  overflow-y: scroll;
+}
+
+#nav, .cols {
+    height:1%;
+		overflow:hidden;
+}
+
+#container{
+  min-height:100%;
+  position:relative;
+}
+
+* html #container{
+  position:static;
+}
+
+.centre {
+	width: 941px;
+	position: relative;
+	margin: 0 auto;
+	text-align:left;
+	padding:0 9px 0 10px;
+}
+
+a {
+	color: #007de6;
+	text-decoration:none;
+}
+
+a:hover, header a:hover{
+  color:#090909;
+	text-decoration:underline;
+}
+
+.images a, a.image{
+  border-bottom:0;
+}
+
+#logo {
+  padding:30px 0 30px;
+  border-bottom:1px solid #D1D1D1;
+  margin-bottom:30px;
+  height:32px;
+}
+
+#logo a {
+  border-bottom:0;
+}
+
+#maincontent {
+  padding:5em 0 28em;
+}
+
+header {
+  background:#090909;
+  position:absolute;
+  height:5em;
+  width:100%;
+  top:0;
+  left:0;
+  color:#B7B7B7;
+  z-index:9; 
+}
+
+header a, header a:hover{
+  color:#B7B7B7;
+	text-decoration:none;
+}
+
+footer{
+  background:#090909 URL(../../images/jfa-2010/pointer3.gif) no-repeat 50% 0;
+	color:#FBFBFB;
+  position:absolute;
+  font:0.917em/1.455 Arial, sans-serif;
+  padding:40px 0 1.455em;
+  width:941px;
+  bottom:0;
+  left:0;
+	width:100%;
+	overflow:hidden;
+}
+
+footer a:hover{
+	color:#F6F6F6;
+}
+
+#nav {
+  font: bold 1.333em/1 Arial, sans-serif;
+  width:460px;
+  float:left;
+}
+
+#nav li{
+  float:left;
+  padding:1.45em 0 1.35em;
+  margin-left:20px;
+}
+
+#nav li.active{
+  background:URL(../../images/jfa-2010/pointer.gif) 50% 100% no-repeat;
+}
+
+#nav li a:hover{
+  color:#FBFBFB;
+}
+
+
+#nav li.active a{
+  color:#FBFBFB;
+}
+
+#nav li a {
+  display:block;
+  float:left;
+  margin:0;
+  color:#007de6;
+  border-color:#007de6;
+}
+
+#nav li.first{
+  margin-left:0;
+}
+
+.main {
+
+}
+
+.cols .col{
+  float:left;
+  width:220px;
+  margin-left:20px;
+}
+
+.cols .first{
+  margin-left:0;
+  clear:both;
+}
+
+.cols.three .col{
+  width:300px;
+}
+
+.cols.two .col, .cols .col.half{
+  width:460px;
+}
+
+.cols .col.three-quarter{
+  width:700px;
+}
+
+.cols .col_400{
+	width:400px;
+}
+
+#maincontent .cols .contact, footer .cols .legal{
+	float:right;
+}
+
+footer .cols .legal{
+	color:#6F6F6F;
+	padding-top:3.5em;
+}
+
+h1  {
+	color:#007de6;
+	font:bold 2.667em/1 Arial,sans-serif;
+	margin-bottom:1em;
+}
+
+
+.home h1, h2{
+  font:bold 1.417em/0.941 Arial, sans-serif;
+  margin-bottom:1.529em;
+	color:#090909;
+}
+
+footer h2{
+	color:#FBFBFB;
+}
+
+
+.hr {
+  background:#B7B7B7;
+  color:#B7B7B7;
+  height:1px;
+  margin:6px 0 30px;
+}
+
+.hr hr{
+  display:none;
+}
+.copy p, .copy ul, footer p, footer ul {
+	margin-bottom: 1.333em;
+}
+
+.copy ul {
+	padding-left:15px;
+}
+
+.copy ul li{
+  list-style:disc;
+}
+
+.img_lg {
+
+}
+
+.img_lg li {
+
+}
+
+#twitter{
+  width:460px;
+  float:right;
+  font:0.8em/1.6 Arial, sans-serif;
+  margin:1.459em 0;
+  position:relative;
+  overflow:hidden;
+  height:3.2em;
+}
+
+#twitter li{
+  position:absolute;
+  left:0;
+  top:0;
+}
+
+.home .icons{
+  padding:0;
+	height:100px;
+	margin-bottom:30px;
+}
+
+.home .icons li{
+  float:left;
+  position:relative;
+  display:block;
+  padding-left:20px;
+}
+
+.home .icons li a{
+  display:block;
+  float:left;
+  width:40px;
+  height:100px;
+  text-indent:-9999em;
+  background:URL(../../images/jfa-2010/icons.gif) no-repeat 0 0;
+}
+
+.home .icons li a:hover{
+	text-decoration:none;
+}
+
+.home .icons li a.first{
+  margin-left:-20px;
+}
+
+* html .home .icons li a.first{
+  margin-left:-10px;
+}
+
+.home .icons li .info{
+  background:URL(../../images/jfa-2010/pointer2.gif) no-repeat 50% 100%;
+  color:#FBFBFB;
+  position:absolute;
+  top:-68px;
+  left:-34px;
+  height:60px;
+  width:154px;
+  text-align:center;
+  display:none;
+  text-indent:0;
+  z-index:9;
+	font:0.917em/1.364 Helvetica, sans-serif;
+	padding-top:13px;
+}
+
+.home .icons li .info.hover{
+  display:block;
+}
+
+.home .icons li .info span{
+	display:block;
+	color:#B7B7B7;
+}
+
+.home .icons li.first .info{
+  left:-55px;
+}
+
+.home .icons li a.wsw{
+  background-position:-450px 0;
+}
+
+.home .icons li a.vitsoe{
+  background-position:-150px 0;
+}
+
+.home .icons li a.modernart{
+  background-position:-750px 0;
+}
+
+.home .icons li a.mattstuart{
+  background-position:-700px 0;
+}
+
+.home .icons li a.options{
+  background-position:-350px 0;
+}
+
+.home .icons li a.ttt{
+  background-position:-550px 0;
+}
+
+.home .icons li a.iyc{
+  background-position:-400px 0;
+}
+
+.home .icons li a.atcamberwell{
+  background-position:-600px 0;
+}
+
+.home .icons li a.itsnicethat{
+  background-position:-250px 0;
+}
+
+.home .icons li a.balconyjump{
+  background-position:-500px 0;
+}
+
+.home .icons li a.inpublic{
+  background-position:-650px 0;
+}
+
+.home .icons li a.mrtoledano{
+  background-position:-300px 0;
+}
+
+.home .icons li a.fornasetti{
+  background-position:-50px 0;
+}
+
+.home .icons li a.kandc{
+  background-position:-100px 0;
+}
+
+.home .icons li a.kkoutlet{
+  background-position:-200px 0;
+}
+
+.home .icons li a.manipulator{
+  background-position:-800px 0;
+}
+
+
+.home .icons li a.sohohouse{
+  background-position:-850px 0;
+}
+
+.home #map_canvas{
+  width:939px;
+  height:390px;
+  border:1px solid #B7B7B7;
+	margin-bottom:30px;
+}
+
+#map_canvas a{
+  border-width:0;
+}
+
+#map_canvas .gmnoprint a{
+  border-width:1px;
+}
+
+.copy .contact ul{
+	padding:0;
+}
+
+.copy .contact h3, .vcard h3{
+	font-weight:normal;
+}
+
+.copy .contact li{
+	list-style:none;
+	margin:0;
+}
+
+.type{
+  display:none;
+}
+
+.webapps li{
+	display:inline;
+}
+
+.webapps a{
+	padding-left:20px;
+	background:URL(../../images/jfa-2010/icons_webapp.gif) no-repeat 0 0;
+	line-height:18px;
+	display:block;
+	margin-bottom:4px;
+}
+
+.webapps .flickr{
+	background-position:0 -23px;
+}
+
+.webapps .tumblr{
+	background-position:0 -43px;
+}
+
+.webapps .facebook{
+	background-position:0 -63px;
+}
+
+.street-address{
+  display:block;
+}
+
+footer form input{
+	font: 1em/1.333 Arial, sans-serif;
+}
+
+footer form ul{
+	padding-left:0;
+}
+
+footer form li{
+	list-style:none;
+	margin-bottom:0.5em;
+}
+
+footer form .hide{
+	display:none;
+}
+
+footer form .withlabel{
+	width:100%;
+}
+
+footer form .sign-up{
+	background:transparent;
+	border:none;
+	color:#007de6;
+	text-decoration:underline;
+	text-align:left;
+	padding:0;
+}
+
+footer li{
+	list-style:none;
+	margin:0;
+}
+
+
+#map_canvas area{
+	border:3px solid #FFF !important;
+	display:block !important;
+}
+
+.intro{
+	font-size:1.417em;
+	line-height:1.353;
+	margin-top:-4px;
+}
+
+
+footer .webapps a{
+	background-position:-250px 0;
+}
+
+footer .webapps .flickr{
+	background-position:-250px -23px;
+}
+
+footer .webapps .tumblr{
+	background-position:-250px -43px;
+}
+
+footer .webapps .facebook{
+	background-position:-250px -63px;
+}

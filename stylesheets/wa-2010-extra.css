@@ -1,0 +1,11 @@
+#plans {
+  font: bold 1.333em/1 Arial, sans-serif;
+  float:right;
+  padding:1.45em 0 1.35em;
+	color:#007de6;
+	display:block;
+}
+
+#plans:hover{
+  color:#FBFBFB;
+}

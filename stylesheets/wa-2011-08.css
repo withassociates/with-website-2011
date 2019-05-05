@@ -1,0 +1,386 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
+/* line 7, ../../views/stylesheets/wa-2011-08.css.scss */
+body {
+  background: URL("/images/bk_paper.gif") 0 0 repeat; }
+
+/* line 11, ../../views/stylesheets/wa-2011-08.css.scss */
+nav {
+  background-color: rgba(176, 176, 176, 0.2); }
+  /* line 13, ../../views/stylesheets/wa-2011-08.css.scss */
+  nav #logo {
+    left: 8px; }
+  /* line 16, ../../views/stylesheets/wa-2011-08.css.scss */
+  nav #whats-this {
+    background: #8e8e8e;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding: 2px 10px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #000;
+    font-family:"Lucida Grande", Arial, sans-serif;
+    color: #FFF; }
+  /* line 26, ../../views/stylesheets/wa-2011-08.css.scss */
+  nav ul li.active {
+    background-image: URL("/images/bk_nav_august.png"); }
+
+/* line 31, ../../views/stylesheets/wa-2011-08.css.scss */
+.container {
+  width: 945px;
+  padding: 0 8px 0 7px; }
+
+/* line 36, ../../views/stylesheets/wa-2011-08.css.scss */
+a {
+  text-decoration: none; }
+
+/* line 40, ../../views/stylesheets/wa-2011-08.css.scss */
+header {
+  font: 0.813em/1.692 Arial, sans-serif;
+  color: #828080; }
+  /* line 43, ../../views/stylesheets/wa-2011-08.css.scss */
+  header h1 {
+    color: #575757; }
+  /* line 46, ../../views/stylesheets/wa-2011-08.css.scss */
+  header .logo {
+    display: block;
+    margin: 40px 0 0; }
+  /* line 50, ../../views/stylesheets/wa-2011-08.css.scss */
+  header a {
+    color: #828080; }
+
+/* line 55, ../../views/stylesheets/wa-2011-08.css.scss */
+.cols {
+  overflow: hidden;
+  *display: inline-block; }
+  /* line 58, ../../views/stylesheets/wa-2011-08.css.scss */
+  .cols .col {
+    float: left;
+    width: 200px; }
+  /* line 62, ../../views/stylesheets/wa-2011-08.css.scss */
+  .cols #intro {
+    width: 730px;
+    float: right;
+    font: 500 2.154em/1.2 gesta, sans-serif;
+    color: #575858; }
+  /* line 68, ../../views/stylesheets/wa-2011-08.css.scss */
+  .cols .vcard {
+    margin-top: 25px; }
+
+/* line 73, ../../views/stylesheets/wa-2011-08.css.scss */
+#content {
+  font: 0.813em/1.308 Arial, sans-serif;
+  color: #5e5c5c;
+  position: relative;
+  *overflow: hidden; }
+  /* line 78, ../../views/stylesheets/wa-2011-08.css.scss */
+  #content .illus {
+    margin-left: -45px; }
+  /* line 81, ../../views/stylesheets/wa-2011-08.css.scss */
+  #content .arrow {
+    position: absolute;
+    right: 44px;
+    top: 2px;
+    height: 156px;
+    width: 188px;
+    background: URL("/images/arrow.png"); }
+  /* line 89, ../../views/stylesheets/wa-2011-08.css.scss */
+  #content .cloud-left {
+    position: absolute;
+    left: -170px;
+    top: 2px;
+    background: URL("/images/cloud_left.png");
+    width: 250px;
+    height: 130px; }
+  /* line 98, ../../views/stylesheets/wa-2011-08.css.scss */
+  #content .cloud-right {
+    position: absolute;
+    right: -92px;
+    top: 60px;
+    height: 75px;
+    width: 145px;
+    background: URL("/images/cloud_right.png"); }
+  /* line 107, ../../views/stylesheets/wa-2011-08.css.scss */
+  #content section {
+    width: 250px;
+    padding: 15px 20px 25px 70px;
+    border: 1px solid #e6e7e9;
+    background: white URL("/images/icons_august.gif") no-repeat 15px 14px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(142, 142, 142, 0.6);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(142, 142, 142, 0.6);
+    box-shadow: 0px 5px 10px 0px rgba(142, 142, 142, 0.6); }
+    /* line 118, ../../views/stylesheets/wa-2011-08.css.scss */
+    #content section h1 {
+      font: bold 1.231em/1.2 Arial, sans-serif;
+      color: #1dbce4; }
+    /* line 122, ../../views/stylesheets/wa-2011-08.css.scss */
+    #content section p.strap {
+      border-bottom: 1px solid #dadada;
+      color: #bbbaba;
+      font-style: italic;
+      font-family: Georgia, serif;
+      padding-bottom: 5px; }
+    /* line 129, ../../views/stylesheets/wa-2011-08.css.scss */
+    #content section p {
+      margin-bottom: 5px; }
+    /* line 132, ../../views/stylesheets/wa-2011-08.css.scss */
+    #content section .readmore {
+      display: block;
+      border-top: 1px solid #dadada;
+      padding-top: 5px; }
+    /* line 137, ../../views/stylesheets/wa-2011-08.css.scss */
+    #content section.start {
+      left: 300px;
+      top: 40px;
+      width: 250px; }
+    /* line 143, ../../views/stylesheets/wa-2011-08.css.scss */
+    #content section.planning {
+      left: 620px;
+      top: 740px;
+      background-position: -385px 14px; }
+    /* line 149, ../../views/stylesheets/wa-2011-08.css.scss */
+    #content section.front-end {
+      left: -15px;
+      top: 1170px;
+      background-position: -785px 14px; }
+    /* line 154, ../../views/stylesheets/wa-2011-08.css.scss */
+    #content section.ror {
+      left: 620px;
+      top: 1675px;
+      background-position: -1185px 14px; }
+    /* line 159, ../../views/stylesheets/wa-2011-08.css.scss */
+    #content section.server {
+      left: -15px;
+      top: 2135px;
+      background-position: -1585px 14px; }
+    /* line 164, ../../views/stylesheets/wa-2011-08.css.scss */
+    #content section .bottick {
+      background: URL("/images/bk_bottick.png") no-repeat 0 0;
+      width: 90px;
+      height: 44px;
+      position: absolute;
+      left: 0px;
+      bottom: -44px; }
+    /* line 172, ../../views/stylesheets/wa-2011-08.css.scss */
+    #content section .lefttick {
+      height: 200px;
+      width: 40px;
+      background: URL("/images/bk_lefttick.png") no-repeat 0 0;
+      position: absolute;
+      left: -40px;
+      top: 0; }
+    /* line 180, ../../views/stylesheets/wa-2011-08.css.scss */
+    #content section .righttick {
+      height: 100%;
+      width: 40px;
+      position: absolute;
+      right: -40px;
+      top: 0;
+      background: URL("/images/bk_righttick.png") no-repeat 0 0; }
+    /* line 188, ../../views/stylesheets/wa-2011-08.css.scss */
+    #content section.more {
+      border: none;
+      width: 614px;
+      margin: -33px -40px -220px;
+      padding: 110px 198px 180px;
+      background: transparent;
+      font: 1.308em/1.412 "Merriweather", "Times New Roman", sans-serif;
+      background: URL("/images/more.png") no-repeat 0 0;
+      position: static;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none; }
+      /* line 200, ../../views/stylesheets/wa-2011-08.css.scss */
+      #content section.more h1 {
+        font: 500 1.176em/1.2 gesta, sans-serif;
+        text-align: center;
+        color: #000;
+        padding: 0 0 20px; }
+      /* line 206, ../../views/stylesheets/wa-2011-08.css.scss */
+      #content section.more .copy {
+        border-top: 1px solid #dadada;
+        padding: 20px 0 10px;
+        border-bottom: 1px solid #dadada; }
+      /* line 211, ../../views/stylesheets/wa-2011-08.css.scss */
+      #content section.more p {
+        margin-bottom: 1.412em; }
+  /* line 216, ../../views/stylesheets/wa-2011-08.css.scss */
+  #content a {
+    color: #13c295;
+    text-decoration: none; }
+
+/* line 222, ../../views/stylesheets/wa-2011-08.css.scss */
+aside {
+  background: URL("/images/bk_aside.gif") repeat-x 0 220px;
+  position: relative;
+  padding-top: 140px; }
+  /* line 226, ../../views/stylesheets/wa-2011-08.css.scss */
+  aside .container {
+    width: 957px;
+    font: 0.813em/1.308 Arial, sans-serif;
+    padding-bottom: 100px;
+    overflow: hidden;
+    *display: inline-block; }
+    /* line 232, ../../views/stylesheets/wa-2011-08.css.scss */
+    aside .container h1 {
+      font: 500 1.534em/1.2 gesta, sans-serif;
+      margin: 0 0 40px;
+      color: #868787;
+      text-align: center; }
+    /* line 238, ../../views/stylesheets/wa-2011-08.css.scss */
+    aside .container ul {
+      margin: 0; }
+      /* line 241, ../../views/stylesheets/wa-2011-08.css.scss */
+      aside .container ul li {
+        display: inline; }
+        /* line 243, ../../views/stylesheets/wa-2011-08.css.scss */
+        aside .container ul li a {
+          display: block;
+          float: left;
+          width: 145px;
+          margin-left: 15px;
+          color: #4c4949; }
+          /* line 249, ../../views/stylesheets/wa-2011-08.css.scss */
+          aside .container ul li a img {
+            display: block;
+            margin-bottom: 15px;
+            -webkit-box-shadow: 0 0 6px #4c4949;
+            -moz-box-shadow: 0 0 6px #4c4949;
+            box-shadow: 0 0 6px #4c4949; }
+          /* line 256, ../../views/stylesheets/wa-2011-08.css.scss */
+          aside .container ul li a:hover, aside .container ul li a:active {
+            color: #13c295; }
+            /* line 258, ../../views/stylesheets/wa-2011-08.css.scss */
+            aside .container ul li a:hover img, aside .container ul li a:active img {
+              -webkit-box-shadow: 0 0 6px #13c295;
+              -moz-box-shadow: 0 0 6px #13c295;
+              box-shadow: 0 0 6px #13c295; }
+        /* line 265, ../../views/stylesheets/wa-2011-08.css.scss */
+        aside .container ul li.first a {
+          margin-left: 3px; }
+
+/* line 273, ../../views/stylesheets/wa-2011-08.css.scss */
+footer {
+  font: 0.813em/1.846 Arial, sans-serif;
+  background: #2a2a2a URL("/images/bk_footer.gif") repeat 0 3px;
+  color: #7c7b7b;
+  padding: 0 0 110px 0; }
+  /* line 278, ../../views/stylesheets/wa-2011-08.css.scss */
+  footer .container {
+    padding: 0 160px;
+    width: 620px;
+    position: relative; }
+  /* line 283, ../../views/stylesheets/wa-2011-08.css.scss */
+  footer a {
+    color: #7c7b7b; }
+    /* line 285, ../../views/stylesheets/wa-2011-08.css.scss */
+    footer a:hover {
+      color: #13c295; }
+    /* line 288, ../../views/stylesheets/wa-2011-08.css.scss */
+    footer a.tel:hover {
+      color: #7c7b7b; }
+  /* line 292, ../../views/stylesheets/wa-2011-08.css.scss */
+  footer .cols {
+    border-top: 1px solid #404040;
+    border-bottom: 1px solid #404040;
+    padding: 10px 0; }
+    /* line 296, ../../views/stylesheets/wa-2011-08.css.scss */
+    footer .cols .col {
+      width: 140px;
+      margin-left: 20px; }
+      /* line 299, ../../views/stylesheets/wa-2011-08.css.scss */
+      footer .cols .col.first {
+        margin-left: 0; }
+    /* line 303, ../../views/stylesheets/wa-2011-08.css.scss */
+    footer .cols li {
+      list-style: none; }
+  /* line 307, ../../views/stylesheets/wa-2011-08.css.scss */
+  footer .tel {
+    display: block;
+    margin-top: 1.308em; }
+  /* line 311, ../../views/stylesheets/wa-2011-08.css.scss */
+  footer .icons {
+    margin-bottom: 1.308em; }
+    /* line 313, ../../views/stylesheets/wa-2011-08.css.scss */
+    footer .icons li {
+      padding-left: 18px;
+      background-repeat: no-repeat;
+      background-position: 0 7px; }
+      /* line 317, ../../views/stylesheets/wa-2011-08.css.scss */
+      footer .icons li.twitter {
+        background-image: URL("/images/twitter_august.gif"); }
+      /* line 320, ../../views/stylesheets/wa-2011-08.css.scss */
+      footer .icons li.flickr {
+        background-image: URL("/images/flickr_august.gif"); }
+      /* line 323, ../../views/stylesheets/wa-2011-08.css.scss */
+      footer .icons li.email {
+        background-image: URL("/images/email_august.gif"); }
+  /* line 329, ../../views/stylesheets/wa-2011-08.css.scss */
+  footer .dog {
+    width: 75px;
+    display:block;
+    height: 90px;
+    position: absolute;
+    right: -20px;
+    bottom: -100px;
+    background: URL("/images/dog.gif") repeat 0 0;
+    z-index: 9; }
+    footer .dog.sit {
+      background-position:0 -100px; }
+
+/* line 340, ../../views/stylesheets/wa-2011-08.css.scss */
+.pipe-1 {
+  position: absolute;
+  left: 0;
+  top: 812px;
+  background: URL("/images/pipe_1.gif") repeat 0 100%;
+  width: 50%;
+  height: 19px;
+  margin-left: -508px; }
+
+/* line 350, ../../views/stylesheets/wa-2011-08.css.scss */
+.pipe-2 {
+  position: absolute;
+  left: 0;
+  top: 1225px;
+  background: URL("/images/pipe_2.gif") repeat 0 100%;
+  width: 50%;
+  height: 19px;
+  margin-left: -508px; }
+
+@media screen and (max-device-width: 1024px) {
+  /* line 361, ../../views/stylesheets/wa-2011-08.css.scss */
+  #content {
+    overflow: hidden; }
+    /* line 363, ../../views/stylesheets/wa-2011-08.css.scss */
+    #content section {
+      width: 225px; } }
+/* line 369, ../../views/stylesheets/wa-2011-08.css.scss */
+.modals {
+  display: none; }
+
+/* line 373, ../../views/stylesheets/wa-2011-08.css.scss */
+.modal {
+  color: #656464;
+  font: 1.063em/1.412 "Merriweather", "Times New Roman", sans-serif;
+  padding: 40px 80px 140px;
+  border: 12px solid #929090;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #FFF;
+  width: 640px; }
+  /* line 383, ../../views/stylesheets/wa-2011-08.css.scss */
+  .modal h2 {
+    text-align: center;
+    font: 500 1.176em/1.2 gesta, sans-serif;
+    color: #000000;
+    margin-bottom: 35px; }
+  /* line 389, ../../views/stylesheets/wa-2011-08.css.scss */
+  .modal p {
+    margin-bottom: 1.412em; }
+  /* line 392, ../../views/stylesheets/wa-2011-08.css.scss */
+  .modal a {
+    color: #13c295; }
